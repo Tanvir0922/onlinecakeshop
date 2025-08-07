@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git url: 'https://github.com/Tanvir0922/onlinecakeshop.git', branch: 'main'
+                git url: 'https://github.com/Tanvir0922/onlinecakeshop.git', branch: 'master'
             }
         }
 
